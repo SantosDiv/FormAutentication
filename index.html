@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Validation</title>
+    
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/login-page.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;1,500&display=swap" rel="stylesheet"> 
+</head>
+<body>
+    <div class="box-sign">
+        <nav class="top-menu">
+            <img src="img/home-icon-dark.svg" alt="Voltar ao início">
+            <img src="img/menu-hamburger-dark.svg" alt="menu">
+        </nav>
+        <main class="content">
+            <img src="img/login-group.svg" height="210px" alt="Imagem de boas vindas">
+
+            <form id="form" action="" method="">
+                <div class="box-input">
+                    <div class="alert"></div>
+                    <input type="text" name="username" placeholder="Username"><img class="info-advert" src="img/info-advert.svg" alt="">
+                </div>
+                <div class="box-input">
+                    <div class="alert"></div>
+                    <input type="password" name="password" placeholder="Password"><img class="info-advert" src="img/info-advert.svg" alt="">
+                </div>
+                
+            </form>
+            <button id="button" form="form">Login <span> <img src="img/arrow.svg" alt=""> </span></button>
+            
+            <p>Create an account</p>
+            <a href="register.html">Click Here!</a>
+        </main>
+    </div>
+
+    <script src="js/formAtentication.js"></script>
+</body>
+</html>
